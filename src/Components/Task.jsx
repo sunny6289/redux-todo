@@ -53,7 +53,7 @@ const Task = ({id, task}) => {
             </div>
                 {
                     isDropDownOpen ? (
-                    <div className='flex flex-col divide-y-2 divide-slate-200 border-2 border-slate-200 px-3 py-2 absolute left-5 top-5 items-center bg-slate-100 text-neutral-900 z-20'>
+                    <div className='flex flex-col divide-y-2 divide-slate-200 border-2 border-slate-200 px-3 py-2 absolute left-[-105px] top-0 items-center bg-slate-100 text-neutral-900 z-20'>
                         {
                             isEditing ? '': <span className='flex gap-3 items-center cursor-pointer py-1 w-full text-green-500 font-medium' onClick={completeTodo}>
                             <IoCheckmarkDone/>
